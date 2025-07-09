@@ -1,4 +1,4 @@
-import { tasks } from "../../utils/Tasks.js";
+import { tasks } from "../../utils/tasks";
 
 const DeleteTask = (props) => {
   const { task, onTaskClick } = props;
