@@ -20,14 +20,11 @@ Sistema simples de gerenciamento de tarefas baseado no método Kanban, desenvolv
 
 ## 💻 Instalação
 
-1. Clone o diretorio `git clone https://github.com/AngelimGabriel/project-kanban`
-2. Instale as dependencias `npm install`
+1. Clone o diretório `git clone https://github.com/AngelimGabriel/project-kanban`
+2. Instale as dependências `npm install`
 3. Rode o projeto `npm run dev`
 
 ## Prints do projeto
 
-- Desktop
-  ![alt text](./public/desktop.png)
-
-- Mobile
-  ![alt text](./public/mobile.png)
+![alt text](./public/desktop.png)
+![alt text](./public/mobile.png)
