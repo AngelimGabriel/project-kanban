@@ -29,11 +29,11 @@ const Main = (props) => {
               <div className="select-none flex gap-1.5 flex-wrap">
                 <small className={`px-2 py-1 rounded-sm ${statusColors[task.status]}`}>{task.status}</small>
                 <small className={`h-7 px-2 py-1 rounded-sm ${prioridadeColors[task.prioridade]}`}>{task.prioridade}</small>
-                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300`}>
+                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300 whitespace-nowrap`}>
                   <FontAwesomeIcon icon={faUser} size="sm" style={{ color: "#8f8f8f" }} />
                   <small>{task.responsavel}</small>
                 </div>
-                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300`}>
+                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300 whitespace-nowrap`}>
                   <FontAwesomeIcon icon={faCalendarDay} size="sm" style={{ color: "#8f8f8f" }} />
                   <small>{new Date(task.deadline + "T03:00:00").toLocaleDateString("pt-BR", { month: "short", day: "2-digit" })}</small>
                 </div>
@@ -68,11 +68,11 @@ const Main = (props) => {
               <div className="select-none flex gap-1.5 flex-wrap">
                 <small className={`px-2 py-1 rounded-sm ${statusColors[task.status]}`}>{task.status}</small>
                 <small className={`h-7 px-2 py-1 rounded-sm ${prioridadeColors[task.prioridade]}`}>{task.prioridade}</small>
-                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300`}>
+                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300 whitespace-nowrap`}>
                   <FontAwesomeIcon icon={faUser} size="sm" style={{ color: "#8f8f8f" }} />
                   <small>{task.responsavel}</small>
                 </div>
-                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300`}>
+                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300 whitespace-nowrap`}>
                   <FontAwesomeIcon icon={faCalendarDay} size="sm" style={{ color: "#8f8f8f" }} />
                   <small>{new Date(task.deadline + "T03:00:00").toLocaleDateString("pt-BR", { month: "short", day: "2-digit" })}</small>
                 </div>
@@ -107,11 +107,11 @@ const Main = (props) => {
               <div className="select-none flex gap-1.5 flex-wrap">
                 <small className={`px-2 py-1 rounded-sm ${statusColors[task.status]}`}>{task.status}</small>
                 <small className={`h-7 px-2 py-1 rounded-sm ${prioridadeColors[task.prioridade]}`}>{task.prioridade}</small>
-                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300`}>
+                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300 whitespace-nowrap`}>
                   <FontAwesomeIcon icon={faUser} size="sm" style={{ color: "#8f8f8f" }} />
                   <small>{task.responsavel}</small>
                 </div>
-                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300`}>
+                <div className={`gap-1.5 flex justify-center items-center h-7 px-2 rounded-sm border-1 border-gray-300 whitespace-nowrap`}>
                   <FontAwesomeIcon icon={faCalendarDay} size="sm" style={{ color: "#8f8f8f" }} />
                   <small>{new Date(task.deadline + "T03:00:00").toLocaleDateString("pt-BR", { month: "short", day: "2-digit" })}</small>
                 </div>
