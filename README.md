@@ -1,6 +1,9 @@
 # 🔖 Kanban WEB
 
 Sistema simples de gerenciamento de tarefas baseado no método Kanban, desenvolvido com React.
+- O projeto está hospedado na vercel, para testar as funcionalidades acesse: https://project-kanban-roan.vercel.app/
+- Usuário `admin`
+- Senha `password`
 
 ## ✅ Funcionalidades
 
